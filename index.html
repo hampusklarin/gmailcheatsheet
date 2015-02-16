@@ -13,6 +13,13 @@
             h2 {
                 color: #dd4b39;
             }
+            table.pure-table {
+                margin-bottom: 18px;
+                font-size: 0.8em;
+            }
+            td:first-child {
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>
@@ -31,40 +38,40 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>G then I </td>
-                            <td>Go to Inbox</td>
+                            <td>G then I</td>
+                            <td><b>G</b>o to <b>I</b>nbox</td>
                         </tr>
                         <tr>
                             <td>G then S</td>
-                            <td>Go to Starred</td>
+                            <td><b>G</b>o to <b>S</b>tarred</td>
                         </tr>
                         <tr>
                             <td>G then T</td>
-                            <td>Go to senT</td>
+                            <td><b>G</b>o to sen<b>T</b></td>
                         </tr>
                         <tr>
                             <td>G then D</td>
-                            <td>Go to Drafts</td>
+                            <td><b>G</b>o to <b>D</b>rafts</td>
                         </tr>
                         <tr>
                             <td>G then A</td>
-                            <td>Go to All mail</td>
+                            <td><b>G</b>o to <b>A</b>ll mail</td>
                         </tr>
                         <tr>
                             <td>G then C</td>
-                            <td>Go to Contacts</td>
+                            <td><b>G</b>o to <b>C</b>ontacts</td>
                         </tr>
                         <tr>
                             <td>G then K</td>
-                            <td>Go to tasKs</td>
+                            <td><b>G</b>o to tas<b>K</b>s</td>
                         </tr>
                         <tr>
                             <td>G then L</td>
-                            <td>Go to Label</td>
+                            <td><b>G</b>o to <b>L</b>abel</td>
                         </tr>
                     </tbody>
                 </table>
-                <p></p>
+
                 <table class="pure-table">
                     <thead>
                         <tr>
@@ -76,7 +83,7 @@
                     <tbody>
                         <tr>
                             <td>* then A</td>
-                            <td>Select All conversations</td>
+                            <td>select <b>A</b>ll conversations</td>
                         </tr>
                         <tr>
                             <td>* then N</td>
@@ -84,15 +91,15 @@
                         </tr>
                         <tr>
                             <td>* then R</td>
-                            <td>select Read conversations</td>
+                            <td>select <b>R</b>ead conversations</td>
                         </tr>
                         <tr>
                             <td>* then U</td>
-                            <td>select Unread conversations</td>
+                            <td>select <b>U</b>nread conversations</td>
                         </tr>
                         <tr>
                             <td>* then S</td>
-                            <td>select Starred conversations</td>
+                            <td>select <b>S</b>tarred conversations</td>
                         </tr>
                         <tr>
                             <td>* then T</td>
@@ -100,7 +107,7 @@
                         </tr>                        
                     </tbody>
                 </table>
-                <p></p>
+
                 <table class="pure-table">
                     <thead>
                         <tr>
@@ -115,16 +122,16 @@
                             <td>back to threadlist</td>
                         </tr>
                         <tr>
-                            <td>J / K</td>
-                            <td>older / newer conversation</td>
+                            <td>K / J</td>
+                            <td>newer / older conversation</td>
                         </tr>
                         <tr>
                             <td>O or &crarr;</td>
-                            <td>Open conversation; collapse/expand</td>
+                            <td><b>O</b>pen conversation; collapse/expand</td>
                         </tr>
                         <tr>
                             <td>P / N</td>
-                            <td>Previous / Next message</td>
+                            <td><b>P</b>revious / <b>N</b>ext message</td>
                         </tr>
                         <tr>
                             <td>`</td>
@@ -136,7 +143,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <p></p>
+
                 <table class="pure-table">
                     <thead>
                         <tr>
@@ -148,33 +155,37 @@
                     <tbody>
                         <tr>
                             <td>C</td>
-                            <td>Compose</td>
+                            <td><b>C</b>ompose</td>
                         </tr>
-                         <tr>
+                        <tr>
+                            <td>&#8679; + C</td>
+                            <td><b>C</b>ompose in new window</td>
+                        </tr>
+                        <tr>
                             <td>D</td>
                             <td>compose in new tab</td>
                         </tr>
-                         <tr>
+                        <tr>
                             <td>/</td>
                             <td>search mail</td>
                         </tr>
-                         <tr>
+                        <tr>
                             <td>Q</td>
                             <td>search chat contacts</td>
                         </tr>
-                         <tr>
+                        <tr>
                             <td>.</td>
                             <td>open "more actions" menu</td>
                         </tr>
-                         <tr>
+                        <tr>
                             <td>V</td>
-                            <td>open "moVe to" menu</td>
+                            <td>open "mo<b>V</b>e to" menu</td>
                         </tr>
-                         <tr>
+                        <tr>
                             <td>L</td>
-                            <td>open "Label as" menu</td>
+                            <td>open "<b>L</b>abel as" menu</td>
                         </tr>
-                         <tr>
+                        <tr>
                             <td>?</td>
                             <td>open keyboard shortcut help</td>
                         </tr>
@@ -182,9 +193,118 @@
                 </table>
             </div>
             <div class="pure-u-1-2">
-                Right column
+                <table class="pure-table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">
+                                Actions    
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>,</td>
+                            <td>move focus to toolbar</td>
+                        </tr>
+                        <tr>
+                            <td>X</td>
+                            <td>select conversation</td>
+                        </tr>
+                        <tr>
+                            <td>S</td>
+                            <td><b>S</b>tar / unstar</td>
+                        </tr>
+                        <tr>
+                            <td>Y</td>
+                            <td>remove label</td>
+                        </tr>
+                        <tr>
+                            <td>E</td>
+                            <td>archive</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td><b>M</b>ute conversation</td>
+                        </tr>
+                        <tr>
+                            <td>!</td>
+                            <td>report as spam</td>
+                        </tr>
+                        <tr>
+                            <td>#</td>
+                            <td>delete</td>
+                        </tr>
+                        <tr>
+                            <td>R</td>
+                            <td><b>R</b>eply</td>
+                        </tr>
+                        <tr>
+                            <td>&#8679; + R</td>
+                            <td><b>R</b>eply in new window</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>reply <b>A</b>ll</td>
+                        </tr>
+                        <tr>
+                            <td>&#8679; + A</td>
+                            <td>reply <b>A</b>ll in new window</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td><b>F</b>orward</td>
+                        </tr>
+                        <tr>
+                            <td>&#8679; + F</td>
+                            <td><b>F</b>orward in new window</td>
+                        </tr>
+                        <tr>
+                            <td>&#8679; + N</td>
+                            <td>update conversation</td>
+                        </tr>
+                        <tr>
+                            <td>] / [</td>
+                            <td>remove conversation from view and go prev/next</td>
+                        </tr>
+                        <tr>
+                            <td>} / {</td>
+                            <td>archive conversation and go prev/next</td>
+                        </tr>
+                        <tr>
+                            <td>Z</td>
+                            <td>undo last action</td>
+                        </tr>
+                        <tr>
+                            <td>&#8679; + I</td>
+                            <td>mark as read</td>
+                        </tr>
+                        <tr>
+                            <td>&#8679; + U</td>
+                            <td>mark as <b>U</b>nread</td>
+                        </tr>
+                        <tr>
+                            <td>_</td>
+                            <td>mark unread from selected message</td>
+                        </tr>
+                        <tr>
+                            <td>+ or =</td>
+                            <td>mark as important</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>mark as not important</td>
+                        </tr>
+                        <tr>
+                            <td>G then P</td>
+                            <td>make a <b>P</b>hone call</td>
+                        </tr>
+                        <tr>
+                            <td>&#8679; + T</td>
+                            <td>add conversation to <b>T</b>asks</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </body>
 </html>
-
